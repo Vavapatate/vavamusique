@@ -10,6 +10,7 @@ bot.on ("ready", function() {
 bot.on("message", message => {
     if(message.content === "!ping"){
  message.reply("Pong! Lel")
-})
 }
+})
+
 bot.login("NDI2MDkwMDk4OTkyMzQ5MTg0.DZVxnw.ZcrMNkdeqyCKpNMG4N8ZSlpSf14")
